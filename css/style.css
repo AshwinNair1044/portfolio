@@ -76,6 +76,7 @@ html {
 
 .site-main .site-banner .site-title h1{
     font-size: 5rem;
+    font-family: var(--otamanopee);
 }
 
 .site-main .site-banner .site-title h4{
@@ -101,7 +102,7 @@ html {
 
 .site-main .about-area .about-title h2 > span{
     display: block;
-    font: normal bold 49px/ 60px var(--roboto);
+    font: normal bold 49px/ 60px var(--otamanopee);
     
     letter-spacing: 5px;
 }
@@ -232,47 +233,6 @@ html {
 
 /* End Project Area */ 
 
-
-/* Subscribe me */ 
-
-.site-main .subscribe-us-area {
-    margin-top: 9rem;
-}
-
-.site-main .subscribe-us-area .subscribe{
-    background: url(../img/subscribe-bg.png) no-repeat;
-    background-size: auto;
-    padding: 10rem 0;
-    margin: 3rem auto;
-}
-
-.site-main .subscribe-us-area .subscribe .subscribe-title h4{
-    font: normal 700 30px/ 30px var(--roboto);
-    color: whitesmoke;
-}
-
-.currentBottom {
-    margin-bottom: 3rem;
-}
-
-.site-main .subscribe-us-area .subscribe form .input-textbox input{
-    width: 400px;
-    padding: 2rem 1rem;
-    border: 1px solid whitesmoke;
-    background: transparent;
-    color: white;
-    font: normal 500 17px/20px var(--roboto);
-}
-
-.site-main .subscribe-us-area .subscribe form .input-textbox input::placeholder{
-    color: whitesmoke;
-}
-
-.site-main .subscribe-us-area .subscribe form .btn-submit button{
-    padding: .7rem 2rem;
-}
-
-/* End subscribe me */ 
 
 /* Footer Area */ 
 
